@@ -1,17 +1,13 @@
 import React from 'react'; 
 import FooterIcon1 from './footer-icon1';
-// import FooterIcon2 from './footer-icon2';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 class Footer extends React.Component{
   render(){
     const footericon1 = [
       {image:'/images/logo_white.png'},
     ];
-    // const footericon2 = [
-    //   {id:1,image:'/images/twitter.png'},
-    //   {id:2,image:'/images/facebook.png'}
-    // ];
+
     return(  
       <div>
         <footer className="text-white bg-[#262c3a] tracking-widest text-center text-xs h-full">
@@ -29,10 +25,10 @@ class Footer extends React.Component{
             <div>
               <ul className="mt-12">
                 <li className="inline-block mx-2">
-                  <Image src='/images/twitter.png' alt='twitter' width={20} height={17}/>
+                  {/* <Image src='/images/twitter.png' alt='twitter' width={20} height={17}/> */}
                 </li>
                 <li className="inline-block mx-2">
-                  <Image src='/images/facebook.png' alt='facebook' width={20} height={20}/>
+                  {/* <Image src='/images/facebook.png' alt='facebook' width={20} height={20}/> */}
                 </li>
               </ul>
             </div>
@@ -44,18 +40,3 @@ class Footer extends React.Component{
 }
 
 export default Footer;
-
-
-// propsで使うかも
-{/* <div classNmae='f-icon2'>
-  {footericon2.map((icon) => {
-    return(
-      <FooterIcon2
-        key = {icon.id}
-        image = {icon.image}
-      />
-    )
-  }
-  )
-  }
-</div> */}
