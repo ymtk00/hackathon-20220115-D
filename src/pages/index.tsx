@@ -1,20 +1,14 @@
-// header.jsxとfooter.jsxの読み込み
-import React from 'react'; 
-import Header from '../components/header';
-import Main from '../components/main';
-// import Footer from '../components/footer';
+import Footer from 'components/footer';
+import Header from 'components/header';
+import Hero from 'components/hero';
 
-class Home extends React.Component{
-  render(){
+export default function Home(){
     return (
-      <div>
-        <Header />
-        <Main />
-        {/* <Footer /> */}
-    </div>
-    )
-  }
+      <>
+        <Header></Header>
+        <Hero></Hero>
+        <Footer></Footer>
+    </>
+    );
 };
-
-export default Home;
 
