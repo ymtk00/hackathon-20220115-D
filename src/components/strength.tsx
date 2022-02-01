@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 export default function Strength(): JSX.Element {
   return (
-      <div className="m-auto w-4/5 h-[800px] bg-blue-200">
-        <p className="pt-10 pl-10 text-7xl font-bold">OUR&nbsp;STRENGTH</p>
+      <div className="m-auto w-4/5 h-[750px]">
+        <p className="pt-10 pl-10 text-7xl font-extrabold">OUR&nbsp;STRENGTH</p>
         <p className="pt-5 pl-10 text-3xl font-bold">-fwywdの強み-</p>
         <div className="flex pt-16 text-center">
           <div className="flex-1">
