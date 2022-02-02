@@ -7,6 +7,7 @@ import Strength from 'components/strength';
 export default function Home(){
     return (
       <>
+        <link rel="icon" sizes="16x16" href="/favicon.ico" />
         <Header></Header>      
         <Hero></Hero>
         <Strength></Strength>
