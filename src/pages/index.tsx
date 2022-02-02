@@ -7,12 +7,12 @@ import Strength from 'components/strength';
 export default function Home(){
     return (
       <>
-        <Header></Header>
+        <Header></Header>      
         <Hero></Hero>
         <Strength></Strength>
         <Commits></Commits>
         <Footer></Footer>
-    </>
+      </>
     );
 };
 

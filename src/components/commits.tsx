@@ -3,12 +3,12 @@ import Link from 'next/link';
 
 export default function Commits(): JSX.Element {
   return (
-    <div className="relative bg-[#FEF8F6]">
+    <div className="relative z-0 bg-[#FEF8F6]">
       <div className="absolute top-[0]">
-          <Image src="/images/Vector2.png" alt="vector2" width={1680} height={150} />
+          <Image src="/images/Vector2.png" alt="vector2" width={1680} height={180} />
       </div>
       <div className="m-auto w-4/5 h-[1000px]">
-        <p className="pt-48 pl-10 text-7xl font-extrabold">COMMITS</p>
+        <p id="commits" className="pt-48 pl-10 text-7xl font-extrabold">COMMITS</p>
         <p className="pt-5 pl-10 text-3xl font-bold">-理由-</p>
         <div className="flex pt-16">
           <div className="flex-[2]">

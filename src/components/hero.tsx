@@ -3,13 +3,9 @@ import Link from 'next/link';
 
 export default function Hero(): JSX.Element {
   return (
-      <div>
-        <div className="relative">
-          <div className="h-[1000px] bg-[url('/images/d-hero.png')] bg-cover"></div>
-        </div>
-        <div className="absolute top-[1000px]">
-          <Image src="/images/Vector1.png" alt="vector1" width={1680} height={150} />
-        </div>
+      <div className="z-0">
+        <div className="-mb-44 h-[1150px] bg-[url('/images/hero.png')] bg-cover"></div>
+        <div className="w-[1680px] h-[180px] bg-[url('/images/Vector1.png')] bg-cover"></div>
       </div>
   );
 }
