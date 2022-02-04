@@ -5,7 +5,7 @@ export default function Feader(): JSX.Element {
   return (
     <footer className="z-0 h-[400px] text-center bg-[#262c3a]">
       <div>
-        <div className="pt-10 pb-5 text-xl text-white">creat&nbsp;by&nbsp;team-D</div>
+        <div className="pt-10 pb-5 text-xl text-white">Creat&nbsp;by&nbsp;The&nbsp;First&nbsp;Hackathon&nbsp;Team-D</div>
         <div className="py-2">
           <a href="https://fwywd.com/" className="hover:opacity-70"><Image src="/images/logo_white.png" alt="footerlogo" width={100} height={120} /></a>
         </div>
@@ -17,7 +17,7 @@ export default function Feader(): JSX.Element {
             <a href="https://facebook.com/" className="hover:opacity-50"><Image src="/images/facebook.png" alt="facebooklogo" width={20} height={20} /></a>
           </div>
         </div>
-        <div className="pt-5 text-sm text-white">©&nbsp;2022&nbsp;team-D</div>
+        <div className="pt-5 text-sm text-white">©&nbsp;2022&nbsp;The&nbsp;First&nbsp;Hackathon&nbsp;Team-D</div>
       </div>
     </footer>
   );
