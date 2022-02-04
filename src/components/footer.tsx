@@ -11,10 +11,10 @@ export default function Feader(): JSX.Element {
         </div>
         <div className="flex">
           <div className="flex-1 py-5 px-2 text-right">
-            <a href="https://twitter.com/" className="hover:opacity-50"><Image  src="/images/twitter.png" alt="twitterlogo" width={25} height={25} /></a>
+            <a href="https://twitter.com/" className="hover:opacity-50"><Image  src="/images/twitter.png" alt="twitterlogo" width={20} height={20} /></a>
           </div>
           <div className="flex-1 py-5 px-2 text-left"> 
-            <a href="https://facebook.com/" className="hover:opacity-50"><Image src="/images/facebook.png" alt="facebooklogo" width={25} height={25} /></a>
+            <a href="https://facebook.com/" className="hover:opacity-50"><Image src="/images/facebook.png" alt="facebooklogo" width={20} height={20} /></a>
           </div>
         </div>
         <div className="pt-5 text-sm text-white">©&nbsp;2022&nbsp;team-D</div>
