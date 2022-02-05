@@ -16,13 +16,12 @@ export default function Hero(): JSX.Element {
             <p  className="p-5 font-serif text-6xl italic tracking-widest text-white bg-gradient-to-r from-indigo-700 via-cyan-700 to-purple-700 rounded-md">最高<span className="text-3xl">の</span>チャンス<span className="text-3xl">が</span>此処<span className="text-3xl">に</span>！！</p>
           </div>
           <div className="flex mt-5 w-[820px] text-center">
-            <p className="flex-1 p-5 text-xl tracking-widest text-white bg-black opacity-80">起業家支援</p>
-            <p className="flex-[5] p-5 text-xl tracking-widest text-black bg-white opacity-80">淡路島から始まるビジネス版ワーキングホリデー</p>
+            <p className="flex-1 p-5 text-xl tracking-widest text-white bg-[#2f9191] rounded-l-md">起業家支援</p>
+            <p className="flex-[5] p-5 text-xl tracking-widest text-black bg-white rounded-r-md opacity-90">淡路島から始まるビジネス版ワーキングホリデー</p>
           </div>
           <a href="">
-            <p className="py-4 mt-5 w-96 text-xl tracking-widest text-center text-white bg-gradient-to-r from-indigo-500 via-cyan-500 to-blue-500 rounded-full">
-              &#8811;&nbsp;
-              <span className="text-[#DDD23B]">説明会資料</span>のダウンロード
+            <p className="py-4 mt-5 w-96 text-xl tracking-widest text-center text-white hover:text-[#258632] bg-gradient-to-r from-indigo-500 hover:from-[#c0f9fd] via-cyan-500 to-blue-500 hover:to-[#c0f9fd] rounded-full hover:border-4 hover:border-[#2f9191] hover:border-solid">
+              &#8811;&nbsp;説明会資料のダウンロード
             </p>
           </a>
         </div>
